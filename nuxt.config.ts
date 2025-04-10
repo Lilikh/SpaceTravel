@@ -25,4 +25,9 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: "",
   },
+  nitro: {
+    prerender: {
+      routes: ['/', '/blogs', '/events', '/packs', '/booking'] // List all dynamic routes
+    }
+  }
 });
