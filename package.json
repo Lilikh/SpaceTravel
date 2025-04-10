@@ -3,13 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "deploy": "npm run generate && gh-pages -d dist",
     "build": "nuxt build",
     "dev": "concurrently \"nuxt dev\" \"json-server --watch db.json --delay=500 --port 3001\"",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "server": "json-server --watch db.json --delay=500 --port 3001"
+    "server": "json-server --watch db.json --delay=500 --port 3001",
+    "deploy": "npm run generate && gh-pages -d dist"
   },
   "dependencies": {
     "@nuxt/ui": "^2.19.2",
