@@ -1,3 +1,4 @@
+
 export function useEvents() {
   const events = ref<Event[]>([]);
   const loading = ref(true);

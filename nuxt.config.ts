@@ -27,7 +27,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: ['/', '/blogs', '/events', '/packs', '/booking'] // List all dynamic routes
+      routes: ['/', '/SpaceTravel/blogs', '/SpaceTravel/events', '/SpaceTravel/packs', '/SpaceTravel/booking'] // List all dynamic routes
     }
   }
 });
