@@ -1,7 +1,4 @@
-import data from '../assets/db.json'
-export function fetchEvents() {
-  return data.events // Replace with your data structure
-}
+
 export function useEvents() {
   const events = ref<Event[]>([]);
   const loading = ref(true);
