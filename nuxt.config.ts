@@ -12,6 +12,7 @@ export default defineNuxtConfig({
       ],
       link: [{ rel: "icon", type: "image/png", href: "/spaice-favicon.png" }],
     },
+    baseURL:'/SpaceTravel/'
   },
   snackbar: {
     bottom: true,
