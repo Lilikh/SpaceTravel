@@ -1,0 +1,1 @@
+import{r as a}from"./DSMXS7QP.js";function s(){const r=a(!1);return{isLoading:r,withLoading:async(e,o=500)=>{r.value=!0;try{return await new Promise(t=>setTimeout(t,o)),await e()}catch(t){throw console.error("Ett fel uppstod:",t),t}finally{r.value=!1}}}}export{s as u};
