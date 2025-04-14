@@ -28,7 +28,7 @@ export default defineNuxtConfig({
  
   runtimeConfig: {
     public: {
-      apiBase: 'https://spacetravel-2.onrender.com'
+      apiBase: 'https://spacetravel-2-backend.onrender.com'
     
     }
   }
