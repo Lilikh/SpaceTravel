@@ -25,15 +25,11 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: "",
   },
-/*   nitro: {
-    prerender: {
-      routes: ['/', '/SpaceTravel/blogs', '/SpaceTravel/events', '/SpaceTravel/packs', '/SpaceTravel/booking'] // List all dynamic routes
-    }
-  } */
  
   runtimeConfig: {
     public: {
       apiBase: 'https://spacetravel-2.onrender.com'
+    
     }
   }
 });
