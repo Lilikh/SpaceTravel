@@ -28,8 +28,9 @@ export default defineNuxtConfig({
  
   runtimeConfig: {
     public: {
-      apiBase: 'https://spacetravel-2-backend.onrender.com'
-    
+      apiBase: process.env.NODE_ENV === 'production'
+        ? 'https://spacetravel-2-backend.onrender.com' // Deployed backend
+        : 'http://localhost:3001' // Local JSON server
     }
   }
 });
